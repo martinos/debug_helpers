@@ -22,15 +22,15 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   1. Add debug_helpers to your list of dependencies in `mix.exs`:
   ```elixir
-    def deps do
-      [{:debug_helpers, github: "martinos/debug_helpers"}]
-    end
+  def deps do
+    [{:debug_helpers, github: "martinos/debug_helpers"}]
+  end
   ```
 
   2. Ensure debug_helpers is started before your application:
   ```elixir
-    def application do
-      [applications: [:debug_helpers]]
-    end
+  def application do
+    [applications: [:debug_helpers]]
+  end
   ```
 
