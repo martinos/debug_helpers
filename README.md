@@ -1,16 +1,16 @@
 # DebugHelpers
 
-Helpers for debugging Elixir application. Based on Elm's `Debug.log` function. 
+Helpers for debugging Elixir applications. Based on Elm's `Debug.log` function. 
 
 You can use it this way:
 
     conn |> DebugHelpers.Helpers.debug("My Connection")
 
-It will output in red the "My Connection" message followed by the inspected connection output in blue.
+This will output the "My Connection" message in red followed by the inspected connection output in blue.
 
 It pimps the famous `IO.inspect` function.
 
-I will also output the elapsed time since the last the debug function was used. Great for quickly profiling
+This will also output the elapsed time since the last the debug function was used. This is great for quickly profiling
 
 
 ## Installation
