@@ -10,7 +10,7 @@ This will output the "My Connection" message in red followed by the inspected co
 
 It pimps the famous `IO.inspect` function.
 
-This will also output the elapsed time since the last the debug function was used. This is great for quickly profiling
+This will also output the elapsed time since the last tine the debug function was used. This is great for quickly profiling
 
 Here is a screen shot of an example output:
 
