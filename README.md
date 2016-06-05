@@ -4,7 +4,7 @@ Helpers for debugging Elixir applications. Based on Elm's `Debug.log` function.
 
 You can use it this way:
 
-    conn |> DebugHelpers.Helpers.debug("My Connection")
+    changeset |> DebugHelpers.Helpers.debug("My Connection")
 
 This will output the "My Connection" message in red followed by the inspected connection output in blue.
 
