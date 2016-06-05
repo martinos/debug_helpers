@@ -18,8 +18,6 @@ Here is a screen shot of an example output:
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
   1. Add debug_helpers to your list of dependencies in `mix.exs`:
   ```elixir
   def deps do
