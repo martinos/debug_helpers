@@ -28,6 +28,6 @@ defmodule DebugHelpers.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 2.1.4"}]
+    [{:timex, "~> 2.2.1"}]
   end
 end

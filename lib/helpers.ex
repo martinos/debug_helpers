@@ -7,7 +7,8 @@ defmodule DebugHelpers.Helpers do
     {old_time, _} = Server.update_rec(now, data)
     elapsed = Time.diff(now, old_time)
     elapsed_str = :io_lib.format("~.03f", [timestamp_to_sec(elapsed)])
-    IO.puts "#{IO.ANSI.red}#{msg} [#{elapsed_str} secs]: #{IO.ANSI.blue}#{inspect(data, pretty: true)}#{IO.ANSI.reset}"
+    IO.puts "#{IO.ANSI.red}#{msg} [#{elapsed_str} secs]:"
+    IO.puts "#{IO.ANSI.blue}#{inspect(data, pretty: true)}#{IO.ANSI.reset}"
     data
   end
 
