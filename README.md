@@ -6,7 +6,7 @@ You can use it this way:
 
     changeset |> DebugHelpers.Helpers.debug("index changeset")
 
-This will output the "My Connection" message in red followed by the inspected connection output in blue.
+This will output the "index changeset" message in red followed by the inspected connection output in blue.
 
 It pimps the famous `IO.inspect` function.
 
