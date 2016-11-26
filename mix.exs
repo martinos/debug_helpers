@@ -14,7 +14,7 @@ defmodule DebugHelpers.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :timex, :temp],
      mod: {DebugHelpers, []}]
   end
 
@@ -28,6 +28,7 @@ defmodule DebugHelpers.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 2.2.1"}]
+    [{:timex, "~> 2.2.1"}, 
+     {:temp, "~> 0.4"}]
   end
 end

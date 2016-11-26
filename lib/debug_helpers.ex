@@ -16,4 +16,12 @@ defmodule DebugHelpers do
     opts = [strategy: :one_for_one, name: DebugHelpers.Supervisor]
     Supervisor.start_link(children, opts)
   end
+
+  def debug(data, msg \\ "DEBUG") do
+    DebugHelpers.Helpers.debug(data, msg)
+  end
+
+  def diff(data, msg \\ "DEBUG") do
+    DebugHelpers.Helpers.diff(data, msg)
+  end
 end
