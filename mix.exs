@@ -28,7 +28,7 @@ defmodule DebugHelpers.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 2.2.1"}, 
+    [{:timex, "~> 2.2"}, 
      {:temp, "~> 0.4"}]
   end
 end
